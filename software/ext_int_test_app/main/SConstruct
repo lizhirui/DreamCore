@@ -1,0 +1,28 @@
+import os
+import sys
+import osconfig
+
+from osconfig import SRC_ROOT
+
+sys.path = sys.path + [os.path.join(SRC_ROOT, 'tools')]
+from building import *
+
+TARGET = 'ext_int_test_app.' + osconfig.TARGET_EXT
+
+DefaultEnvironment(tools=[])
+env = Environment(tools = ['mingw'],
+    AS = osconfig.AS, ASFLAGS = osconfig.AFLAGS,
+    CC = osconfig.CC, CCFLAGS = osconfig.CFLAGS,
+    CXX = osconfig.CXX, CXXFLAGS = osconfig.CXXFLAGS,
+    AR = osconfig.AR, ARFLAGS = '-rc',
+    LINK = osconfig.LINK, LINKFLAGS = osconfig.LFLAGS)
+env.PrependENVPath('PATH', osconfig.EXEC_PATH)
+env['ASCOM'] = env['ASPPCOM']
+
+Export('SRC_ROOT')
+Export('osconfig')
+
+# prepare building environment
+objs = PrepareBuilding(env, SRC_ROOT)
+# make a building
+DoBuilding(TARGET, objs)

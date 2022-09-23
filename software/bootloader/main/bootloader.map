@@ -1,0 +1,1024 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memcpy.o)
+                              build\src\main.o (memcpy)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-vsprintf.o)
+                              build\src\main.o (vsprintf)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-impure.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-vsprintf.o) (_impure_ptr)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-vsprintf.o) (_svfprintf_r)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (_free_r)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (_ldtoa_r)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-localeconv.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (_localeconv_r)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-localeconv.o) (__global_locale)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (_malloc_r)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mbtowc_r.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o) (__ascii_mbtowc)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memchr.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (memchr)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mlock.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o) (__malloc_lock)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o) (_Balloc)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sbrkr.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o) (_sbrk_r)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-s_frexp.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (frexp)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sprintf.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o) (sprintf)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strcmp.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o) (strcmp)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strcpy.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o) (strcpy)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strlen.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (strlen)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strncpy.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (strncpy)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (__ssprint_r)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-wctomb_r.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o) (__ascii_wctomb)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-callocr.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o) (_calloc_r)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ctype_.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o) (_ctype_)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memmove-stub.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o) (memmove)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memset.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-callocr.o) (memset)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reallocr.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o) (_realloc_r)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reent.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sbrkr.o) (errno)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libgloss.a(sys_sbrk.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sbrkr.o) (_sbrk)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-errno.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libgloss.a(sys_sbrk.o) (__errno)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (__udivdi3)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (__umoddi3)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o) (__divdf3)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o) (__muldf3)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (__eqtf2)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (__gttf2)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (__lttf2)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (__multf3)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (__subtf3)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (__fixtfsi)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (__floatsitf)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (__extenddftf2)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o) (__trunctfdf2)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o) (__clz_tab)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o) (__clzsi2)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reent.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 build\src\crc.o
+ .data          0x0000000000000000        0x0 build\src\crc.o
+ .bss           0x0000000000000000        0x0 build\src\crc.o
+ .text.crc8     0x0000000000000000       0x78 build\src\crc.o
+ .text          0x0000000000000000        0x0 build\src\main.o
+ .data          0x0000000000000000        0x0 build\src\main.o
+ .bss           0x0000000000000000        0x0 build\src\main.o
+ .text          0x0000000000000000        0x0 build\src\startup.o
+ .data          0x0000000000000000        0x0 build\src\startup.o
+ .bss           0x0000000000000000        0x0 build\src\startup.o
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-vsprintf.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-vsprintf.o)
+ .text          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-impure.o)
+ .srodata       0x0000000000000000        0x4 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-localeconv.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-localeconv.o)
+ .text          0x0000000000000000       0xb0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+ .sbss          0x0000000000000000        0x4 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mbtowc_r.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mbtowc_r.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memchr.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memchr.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-s_frexp.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-s_frexp.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sprintf.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sprintf.o)
+ .text          0x0000000000000000      0x17c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strcmp.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strcmp.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strcmp.o)
+ .riscv.attributes
+                0x0000000000000000       0x1f d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strcmp.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strcpy.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strcpy.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strncpy.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strncpy.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-wctomb_r.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-wctomb_r.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-callocr.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-callocr.o)
+ .text          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ctype_.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ctype_.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ctype_.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memmove-stub.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memmove-stub.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reallocr.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reallocr.o)
+ .text          0x0000000000000000      0x174 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libgloss.a(sys_sbrk.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libgloss.a(sys_sbrk.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-errno.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-errno.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+ .text          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+ .data          0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a
+LOAD d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libm.a
+LOAD build\src\crc.o
+LOAD build\src\main.o
+LOAD build\src\startup.o
+LOAD d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a
+START GROUP
+LOAD d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a
+LOAD d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libgloss.a
+END GROUP
+LOAD d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a
+                0x0000000080000000                BASE_ADDRESS = 0x80000000
+                0x0000000000004000                STACK_SIZE = 0x4000
+                0x0000000080000000                . = BASE_ADDRESS
+                0x0000000080000000                start = .
+
+.text           0x0000000080000000     0xe2e0
+                0x0000000080000000                stext = .
+ *(.text.entry)
+ .text.entry    0x0000000080000000       0xec build\src\startup.o
+                0x0000000080000000                _start
+                0x00000000800000b8                send_char
+                0x00000000800000cc                read_char
+ *(.text .text.*)
+ .text.crc8_l   0x00000000800000ec       0x7c build\src\crc.o
+                0x00000000800000ec                crc8_l
+ .text.send_str
+                0x0000000080000168       0x50 build\src\main.o
+                0x0000000080000168                send_str
+ .text.my_printf
+                0x00000000800001b8       0x74 build\src\main.o
+                0x00000000800001b8                my_printf
+ .text.send_tran
+                0x000000008000022c       0x94 build\src\main.o
+ .text.send_pack
+                0x00000000800002c0       0x88 build\src\main.o
+ .text.get_byte
+                0x0000000080000348       0x44 build\src\main.o
+                0x0000000080000348                get_byte
+ .text.rev_pack
+                0x000000008000038c      0x18c build\src\main.o
+ .text.get_uint32
+                0x0000000080000518       0x68 build\src\main.o
+ .text.rev_bin_data
+                0x0000000080000580      0x1b0 build\src\main.o
+ .text.main     0x0000000080000730       0x70 build\src\main.o
+                0x0000000080000730                main
+ .text          0x00000000800007a0      0x11c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memcpy.o)
+                0x00000000800007a0                memcpy
+ .text          0x00000000800008bc       0x68 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-vsprintf.o)
+                0x00000000800008bc                _vsprintf_r
+                0x0000000080000908                vsprintf
+ .text          0x0000000080000924     0x2acc d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+                0x0000000080000924                _svfprintf_r
+ .text          0x00000000800033f0      0x458 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+                0x00000000800033f0                _malloc_trim_r
+                0x000000008000352c                _free_r
+ .text          0x0000000080003848     0x2b28 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o)
+                0x0000000080005018                _ldtoa_r
+                0x000000008000630c                _ldcheck
+ .text          0x0000000080006370       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-localeconv.o)
+                0x0000000080006370                __localeconv_l
+                0x0000000080006378                _localeconv_r
+                0x0000000080006384                localeconv
+ .text          0x0000000080006390      0x828 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                0x0000000080006390                _malloc_r
+ .text          0x0000000080006bb8       0x78 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mbtowc_r.o)
+                0x0000000080006bb8                _mbtowc_r
+                0x0000000080006bc8                __ascii_mbtowc
+ .text          0x0000000080006c30       0xdc d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memchr.o)
+                0x0000000080006c30                memchr
+ .text          0x0000000080006d0c        0x8 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mlock.o)
+                0x0000000080006d0c                __malloc_lock
+                0x0000000080006d10                __malloc_unlock
+ .text          0x0000000080006d14     0x1008 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+                0x0000000080006d14                _Balloc
+                0x0000000080006dbc                _Bfree
+                0x0000000080006de0                __multadd
+                0x0000000080006f08                __s2b
+                0x0000000080007014                __hi0bits
+                0x0000000080007088                __lo0bits
+                0x0000000080007140                __i2b
+                0x0000000080007174                __multiply
+                0x000000008000736c                __pow5mult
+                0x00000000800074b4                __lshift
+                0x0000000080007600                __mcmp
+                0x000000008000765c                __mdiff
+                0x0000000080007840                __ulp
+                0x00000000800078a0                __b2d
+                0x00000000800079b8                __d2b
+                0x0000000080007afc                __ratio
+                0x0000000080007ba0                _mprec_log10
+                0x0000000080007c3c                __copybits
+                0x0000000080007ca4                __any_on
+ .text          0x0000000080007d1c       0x5c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sbrkr.o)
+                0x0000000080007d1c                _sbrk_r
+ .text          0x0000000080007d78       0xb0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-s_frexp.o)
+                0x0000000080007d78                frexp
+ .text          0x0000000080007e28       0xec d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sprintf.o)
+                0x0000000080007e28                _sprintf_r
+                0x0000000080007e94                sprintf
+ .text          0x0000000080007f14       0xb0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strcpy.o)
+                0x0000000080007f14                strcpy
+ .text          0x0000000080007fc4       0x8c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strlen.o)
+                0x0000000080007fc4                strlen
+ .text          0x0000000080008050       0xcc d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strncpy.o)
+                0x0000000080008050                strncpy
+ .text          0x000000008000811c     0x129c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+                0x000000008000811c                __ssprint_r
+                0x00000000800082d8                _svfiprintf_r
+ .text          0x00000000800093b8       0x40 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-wctomb_r.o)
+                0x00000000800093b8                _wctomb_r
+                0x00000000800093c8                __ascii_wctomb
+ .text          0x00000000800093f8       0xb0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-callocr.o)
+                0x00000000800093f8                _calloc_r
+ .text          0x00000000800094a8      0x120 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memmove-stub.o)
+                0x00000000800094a8                memmove
+ .text          0x00000000800095c8       0xdc d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memset.o)
+                0x00000000800095c8                memset
+ .text          0x00000000800096a4      0x5dc d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reallocr.o)
+                0x00000000800096a4                _realloc_r
+ .text          0x0000000080009c80       0xa0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libgloss.a(sys_sbrk.o)
+                0x0000000080009c80                _sbrk
+ .text          0x0000000080009d20       0x10 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-errno.o)
+                0x0000000080009d20                __errno
+ .text          0x0000000080009d30      0x434 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+                0x0000000080009d30                __udivdi3
+ .text          0x000000008000a164      0x410 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+                0x000000008000a164                __umoddi3
+ .text          0x000000008000a574      0x6cc d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+                0x000000008000a574                __divdf3
+ .text          0x000000008000ac40      0x5bc d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+                0x000000008000ac40                __muldf3
+ .text          0x000000008000b1fc       0xcc d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+                0x000000008000b1fc                __netf2
+                0x000000008000b1fc                __eqtf2
+ .text          0x000000008000b2c8      0x144 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+                0x000000008000b2c8                __gttf2
+                0x000000008000b2c8                __getf2
+ .text          0x000000008000b40c      0x144 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+                0x000000008000b40c                __lttf2
+                0x000000008000b40c                __letf2
+ .text          0x000000008000b550     0x100c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+                0x000000008000b550                __multf3
+ .text          0x000000008000c55c     0x1520 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+                0x000000008000c55c                __subtf3
+ .text          0x000000008000da7c      0x150 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+                0x000000008000da7c                __fixtfsi
+ .text          0x000000008000dbcc      0x188 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+                0x000000008000dbcc                __floatsitf
+ .text          0x000000008000dd54      0x20c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+                0x000000008000dd54                __extenddftf2
+ .text          0x000000008000df60      0x334 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+                0x000000008000df60                __trunctfdf2
+ .text          0x000000008000e294       0x4c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+                0x000000008000e294                __clzsi2
+                0x000000008000e2e0                etext = .
+                0x000000008000e2e0                . = ALIGN (0x8)
+
+.rodata         0x000000008000e2e0      0xaa0
+                0x000000008000e2e0                srodata = .
+ *(.rodata .rodata.* .rodata*)
+ .rodata        0x000000008000e2e0       0xba build\src\main.o
+ *fill*         0x000000008000e39a        0x2 
+ .rodata        0x000000008000e39c      0x18c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+ .rodata.str1.4
+                0x000000008000e528       0x42 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+ *fill*         0x000000008000e56a        0x2 
+ .rodata        0x000000008000e56c      0x252 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o)
+ *fill*         0x000000008000e7be        0x2 
+ .rodata.str1.4
+                0x000000008000e7c0       0x28 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o)
+ .rodata.str1.4
+                0x000000008000e7e8       0x10 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+                                         0x12 (size before relaxing)
+ .rodata        0x000000008000e7f8      0x128 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+                0x000000008000e808                __mprec_tens
+                0x000000008000e8d0                __mprec_tinytens
+                0x000000008000e8f8                __mprec_bigtens
+ .rodata        0x000000008000e920      0x18c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+ .rodata.str1.4
+                0x000000008000eaac       0x2f d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+ .rodata        0x000000008000eaac      0x101 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ctype_.o)
+                0x000000008000eaac                _ctype_
+ *fill*         0x000000008000ebad        0x3 
+ .rodata        0x000000008000ebb0       0x3c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+ .rodata        0x000000008000ebec       0x3c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+ .rodata        0x000000008000ec28       0x3c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+ .rodata        0x000000008000ec64      0x100 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+                0x000000008000ec64                __clz_tab
+ *(.srodata .srodata.* .srodata*)
+ *fill*         0x000000008000ed64        0x4 
+ .srodata.cst8  0x000000008000ed68       0x10 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+ .srodata.cst8  0x000000008000ed78        0x8 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-s_frexp.o)
+                0x000000008000ed80                erodata = .
+                0x000000008000ed80                . = ALIGN (0x8)
+                0x000000008000ed80                . = ALIGN (0x8)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry)
+
+.eh_frame       0x000000008000ed80       0x3c
+ *(.eh_frame)
+ .eh_frame      0x000000008000ed80       0x28 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .eh_frame      0x000000008000eda8       0x14 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+                                         0x28 (size before relaxing)
+
+.rela.dyn       0x000000008000edbc        0x0
+ .rela.text.entry
+                0x000000008000edbc        0x0 build\src\crc.o
+ .rela.text     0x000000008000edbc        0x0 build\src\crc.o
+                0x000000008000edc0                . = ALIGN (0x8)
+
+.data           0x000000008000edc0      0xaac
+                0x000000008000edc0                sdata = .
+ *(.data .data.*)
+ .data.crc_array
+                0x000000008000edc0      0x100 build\src\crc.o
+                0x000000008000edc0                crc_array
+ .data          0x000000008000eec0      0x428 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-impure.o)
+ .data          0x000000008000f2e8      0x16c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+                0x000000008000f2e8                __global_locale
+ .data          0x000000008000f454      0x408 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                0x000000008000f454                __malloc_av_
+                0x000000008000f860                . = ALIGN (0x8)
+ *fill*         0x000000008000f85c        0x4 
+                0x0000000080010060                PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.*)
+ .sdata         0x000000008000f860        0x4 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-impure.o)
+                0x000000008000f860                _impure_ptr
+ .sdata         0x000000008000f864        0x8 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                0x000000008000f864                __malloc_sbrk_base
+                0x000000008000f868                __malloc_trim_threshold
+                0x000000008000f86c                edata = .
+                0x000000008000f870                . = ALIGN (0x8)
+                0x000000008000f870                __bss_start = .
+
+.bss            0x000000008000f870     0x8790
+                0x000000008000f870                sbss = .
+ *(.sbss .sbss.*)
+ .sbss          0x000000008000f870        0xc d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                0x000000008000f870                __malloc_max_total_mem
+                0x000000008000f874                __malloc_max_sbrked_mem
+                0x000000008000f878                __malloc_top_pad
+ .sbss          0x000000008000f87c        0x4 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libgloss.a(sys_sbrk.o)
+ *(.dynsbss)
+ *(.scommon)
+ *(.bss .bss.*)
+ .bss.pack_buf  0x000000008000f880     0x2800 build\src\main.o
+                0x000000008000f880                pack_buf
+ .bss.buf.2247  0x0000000080012080     0x1000 build\src\main.o
+ .bss           0x0000000080013080       0x28 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                0x0000000080013080                __malloc_current_mallinfo
+ *(.dynbss)
+ *(COMMON)
+ COMMON         0x00000000800130a8        0x4 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reent.o)
+                0x00000000800130a8                errno
+                0x0000000080014000                . = ALIGN (0x1000)
+ *fill*         0x00000000800130ac      0xf54 
+                [!provide]                        PROVIDE (__stack_start = .)
+                0x0000000080018000                . = (. + STACK_SIZE)
+ *fill*         0x0000000080014000     0x4000 
+                0x0000000080018000                . = ALIGN (0x8)
+                0x0000000080018000                PROVIDE (__stack_default = .)
+                0x0000000080018000                ebss = .
+                0x0000000080018000                __bss_end = .
+                0x0000000080018000                . = ALIGN (0x1000)
+                0x0000000080018000                _heap_start = .
+                [!provide]                        PROVIDE (end = .)
+OUTPUT(bootloader.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000     0x929e
+ .debug_info    0x0000000000000000      0x13e build\src\crc.o
+ .debug_info    0x000000000000013e      0xf09 build\src\main.o
+ .debug_info    0x0000000000001047       0x26 build\src\startup.o
+ .debug_info    0x000000000000106d     0x1245 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .debug_info    0x00000000000022b2     0x12a3 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .debug_info    0x0000000000003555      0x734 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+ .debug_info    0x0000000000003c89      0x76c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+ .debug_info    0x00000000000043f5      0x298 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+ .debug_info    0x000000000000468d      0x296 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+ .debug_info    0x0000000000004923      0x296 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+ .debug_info    0x0000000000004bb9     0x126c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+ .debug_info    0x0000000000005e25      0xd83 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+ .debug_info    0x0000000000006ba8      0x2c5 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+ .debug_info    0x0000000000006e6d      0x3c6 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+ .debug_info    0x0000000000007233      0x3ef d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+ .debug_info    0x0000000000007622      0x53b d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+ .debug_info    0x0000000000007b5d      0xb6a d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+ .debug_info    0x00000000000086c7      0xbd7 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+
+.debug_abbrev   0x0000000000000000     0x200f
+ .debug_abbrev  0x0000000000000000       0xd4 build\src\crc.o
+ .debug_abbrev  0x00000000000000d4      0x33c build\src\main.o
+ .debug_abbrev  0x0000000000000410       0x14 build\src\startup.o
+ .debug_abbrev  0x0000000000000424      0x2cc d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x00000000000006f0      0x2e8 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .debug_abbrev  0x00000000000009d8      0x187 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+ .debug_abbrev  0x0000000000000b5f      0x197 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+ .debug_abbrev  0x0000000000000cf6      0x18b d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+ .debug_abbrev  0x0000000000000e81      0x19e d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+ .debug_abbrev  0x000000000000101f      0x19e d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+ .debug_abbrev  0x00000000000011bd      0x1a8 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+ .debug_abbrev  0x0000000000001365      0x1bd d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+ .debug_abbrev  0x0000000000001522      0x1ac d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+ .debug_abbrev  0x00000000000016ce      0x1b5 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+ .debug_abbrev  0x0000000000001883      0x1ab d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+ .debug_abbrev  0x0000000000001a2e      0x1b7 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+ .debug_abbrev  0x0000000000001be5      0x1e8 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+ .debug_abbrev  0x0000000000001dcd      0x242 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+
+.debug_loc      0x0000000000000000    0x1018f
+ .debug_loc     0x0000000000000000      0x169 build\src\crc.o
+ .debug_loc     0x0000000000000169      0x5d6 build\src\main.o
+ .debug_loc     0x000000000000073f      0xbd0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .debug_loc     0x000000000000130f      0x969 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .debug_loc     0x0000000000001c78     0x129b d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+ .debug_loc     0x0000000000002f13      0xd6e d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+ .debug_loc     0x0000000000003c81       0x87 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+ .debug_loc     0x0000000000003d08      0x134 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+ .debug_loc     0x0000000000003e3c      0x134 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+ .debug_loc     0x0000000000003f70     0x8fad d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+ .debug_loc     0x000000000000cf1d     0x22af d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+ .debug_loc     0x000000000000f1cc      0x302 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+ .debug_loc     0x000000000000f4ce      0x1f8 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+ .debug_loc     0x000000000000f6c6      0x417 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+ .debug_loc     0x000000000000fadd      0x647 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+ .debug_loc     0x0000000000010124       0x6b d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+
+.debug_aranges  0x0000000000000000      0x280
+ .debug_aranges
+                0x0000000000000000       0x28 build\src\crc.o
+ .debug_aranges
+                0x0000000000000028       0x60 build\src\main.o
+ .debug_aranges
+                0x0000000000000088       0x20 build\src\startup.o
+ .debug_aranges
+                0x00000000000000a8       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+ .debug_aranges
+                0x0000000000000108       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+ .debug_aranges
+                0x0000000000000128       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+ .debug_aranges
+                0x0000000000000148       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+ .debug_aranges
+                0x0000000000000168       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+ .debug_aranges
+                0x0000000000000188       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+ .debug_aranges
+                0x00000000000001a8       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+ .debug_aranges
+                0x00000000000001c8       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+ .debug_aranges
+                0x00000000000001e8       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+ .debug_aranges
+                0x0000000000000208       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+ .debug_aranges
+                0x0000000000000228       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+ .debug_aranges
+                0x0000000000000248       0x18 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+ .debug_aranges
+                0x0000000000000260       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+
+.debug_ranges   0x0000000000000000     0x1398
+ .debug_ranges  0x0000000000000000       0x18 build\src\crc.o
+ .debug_ranges  0x0000000000000018       0x50 build\src\main.o
+ .debug_ranges  0x0000000000000068      0x100 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .debug_ranges  0x0000000000000168       0xd0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .debug_ranges  0x0000000000000238      0x180 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+ .debug_ranges  0x00000000000003b8      0x1c0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+ .debug_ranges  0x0000000000000578       0x58 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+ .debug_ranges  0x00000000000005d0       0x78 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+ .debug_ranges  0x0000000000000648       0x78 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+ .debug_ranges  0x00000000000006c0      0x760 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+ .debug_ranges  0x0000000000000e20      0x350 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+ .debug_ranges  0x0000000000001170       0x40 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+ .debug_ranges  0x00000000000011b0       0x58 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+ .debug_ranges  0x0000000000001208       0x98 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+ .debug_ranges  0x00000000000012a0       0xd8 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+ .debug_ranges  0x0000000000001378       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+
+.debug_line     0x0000000000000000     0x9adb
+ .debug_line    0x0000000000000000      0x143 build\src\crc.o
+ .debug_line    0x0000000000000143      0x678 build\src\main.o
+ .debug_line    0x00000000000007bb      0x186 build\src\startup.o
+ .debug_line    0x0000000000000941      0xaa8 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .debug_line    0x00000000000013e9      0xb58 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .debug_line    0x0000000000001f41      0xe35 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+ .debug_line    0x0000000000002d76      0xbf8 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+ .debug_line    0x000000000000396e      0x2ac d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+ .debug_line    0x0000000000003c1a      0x393 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+ .debug_line    0x0000000000003fad      0x393 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+ .debug_line    0x0000000000004340     0x1e57 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+ .debug_line    0x0000000000006197     0x2181 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+ .debug_line    0x0000000000008318      0x2b7 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+ .debug_line    0x00000000000085cf      0x2d6 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+ .debug_line    0x00000000000088a5      0x468 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+ .debug_line    0x0000000000008d0d      0x584 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+ .debug_line    0x0000000000009291      0x3e4 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+ .debug_line    0x0000000000009675      0x466 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+
+.debug_str      0x0000000000000000     0x152c
+ .debug_str     0x0000000000000000      0x166 build\src\crc.o
+                                        0x1a1 (size before relaxing)
+ .debug_str     0x0000000000000166      0x4c7 build\src\main.o
+                                        0x69e (size before relaxing)
+ .debug_str     0x000000000000062d       0x1a build\src\startup.o
+                                         0x53 (size before relaxing)
+ .debug_str     0x0000000000000647      0x423 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+                                        0x8c2 (size before relaxing)
+ .debug_str     0x0000000000000a6a        0xa d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+                                        0x8c2 (size before relaxing)
+ .debug_str     0x0000000000000a74      0x2a2 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+                                        0x44a (size before relaxing)
+ .debug_str     0x0000000000000d16      0x15f d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+                                        0x4a2 (size before relaxing)
+ .debug_str     0x0000000000000e75       0x8b d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+                                        0x29f (size before relaxing)
+ .debug_str     0x0000000000000f00       0x5c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+                                        0x2c3 (size before relaxing)
+ .debug_str     0x0000000000000f5c       0x38 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+                                        0x2c3 (size before relaxing)
+ .debug_str     0x0000000000000f94      0x299 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+                                        0x629 (size before relaxing)
+ .debug_str     0x000000000000122d      0x17b d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+                                        0x4f6 (size before relaxing)
+ .debug_str     0x00000000000013a8       0x4f d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+                                        0x307 (size before relaxing)
+ .debug_str     0x00000000000013f7       0x6d d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+                                        0x3ce (size before relaxing)
+ .debug_str     0x0000000000001464       0x51 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+                                        0x31b (size before relaxing)
+ .debug_str     0x00000000000014b5       0x6e d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+                                        0x452 (size before relaxing)
+ .debug_str     0x0000000000001523      0x809 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+ .debug_str     0x0000000000001523        0x9 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+                                        0x826 (size before relaxing)
+
+.comment        0x0000000000000000       0x28
+ .comment       0x0000000000000000       0x28 build\src\crc.o
+                                         0x29 (size before relaxing)
+ .comment       0x0000000000000028       0x29 build\src\main.o
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-vsprintf.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-impure.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-localeconv.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mbtowc_r.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memchr.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mlock.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sbrkr.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-s_frexp.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sprintf.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strcpy.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strlen.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strncpy.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-wctomb_r.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-callocr.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ctype_.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memmove-stub.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reallocr.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reent.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libgloss.a(sys_sbrk.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-errno.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+
+.riscv.attributes
+                0x0000000000000000       0x21
+ .riscv.attributes
+                0x0000000000000000       0x21 build\src\crc.o
+ .riscv.attributes
+                0x0000000000000021       0x21 build\src\main.o
+ .riscv.attributes
+                0x0000000000000042       0x1f build\src\startup.o
+ .riscv.attributes
+                0x0000000000000061       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memcpy.o)
+ .riscv.attributes
+                0x0000000000000082       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-vsprintf.o)
+ .riscv.attributes
+                0x00000000000000a3       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-impure.o)
+ .riscv.attributes
+                0x00000000000000c4       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+ .riscv.attributes
+                0x00000000000000e5       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+ .riscv.attributes
+                0x0000000000000106       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o)
+ .riscv.attributes
+                0x0000000000000127       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-localeconv.o)
+ .riscv.attributes
+                0x0000000000000148       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+ .riscv.attributes
+                0x0000000000000169       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+ .riscv.attributes
+                0x000000000000018a       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mbtowc_r.o)
+ .riscv.attributes
+                0x00000000000001ab       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memchr.o)
+ .riscv.attributes
+                0x00000000000001cc       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mlock.o)
+ .riscv.attributes
+                0x00000000000001ed       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+ .riscv.attributes
+                0x000000000000020e       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sbrkr.o)
+ .riscv.attributes
+                0x000000000000022f       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-s_frexp.o)
+ .riscv.attributes
+                0x0000000000000250       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sprintf.o)
+ .riscv.attributes
+                0x0000000000000271       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strcpy.o)
+ .riscv.attributes
+                0x0000000000000292       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strlen.o)
+ .riscv.attributes
+                0x00000000000002b3       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strncpy.o)
+ .riscv.attributes
+                0x00000000000002d4       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+ .riscv.attributes
+                0x00000000000002f5       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-wctomb_r.o)
+ .riscv.attributes
+                0x0000000000000316       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-callocr.o)
+ .riscv.attributes
+                0x0000000000000337       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ctype_.o)
+ .riscv.attributes
+                0x0000000000000358       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memmove-stub.o)
+ .riscv.attributes
+                0x0000000000000379       0x1f d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memset.o)
+ .riscv.attributes
+                0x0000000000000398       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reallocr.o)
+ .riscv.attributes
+                0x00000000000003b9       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reent.o)
+ .riscv.attributes
+                0x00000000000003da       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libgloss.a(sys_sbrk.o)
+ .riscv.attributes
+                0x00000000000003fb       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-errno.o)
+ .riscv.attributes
+                0x000000000000041c       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .riscv.attributes
+                0x000000000000043d       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .riscv.attributes
+                0x000000000000045e       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+ .riscv.attributes
+                0x000000000000047f       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+ .riscv.attributes
+                0x00000000000004a0       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+ .riscv.attributes
+                0x00000000000004c1       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+ .riscv.attributes
+                0x00000000000004e2       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+ .riscv.attributes
+                0x0000000000000503       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+ .riscv.attributes
+                0x0000000000000524       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+ .riscv.attributes
+                0x0000000000000545       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+ .riscv.attributes
+                0x0000000000000566       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+ .riscv.attributes
+                0x0000000000000587       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+ .riscv.attributes
+                0x00000000000005a8       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+ .riscv.attributes
+                0x00000000000005c9       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+ .riscv.attributes
+                0x00000000000005ea       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+
+.debug_frame    0x0000000000000000      0x494
+ .debug_frame   0x0000000000000000       0x58 build\src\crc.o
+ .debug_frame   0x0000000000000058      0x174 build\src\main.o
+ .debug_frame   0x00000000000001cc       0x54 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+ .debug_frame   0x0000000000000220       0x54 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+ .debug_frame   0x0000000000000274       0x2c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+ .debug_frame   0x00000000000002a0       0x2c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+ .debug_frame   0x00000000000002cc       0x2c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+ .debug_frame   0x00000000000002f8       0x64 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+ .debug_frame   0x000000000000035c       0x4c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+ .debug_frame   0x00000000000003a8       0x2c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+ .debug_frame   0x00000000000003d4       0x3c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+ .debug_frame   0x0000000000000410       0x38 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+ .debug_frame   0x0000000000000448       0x2c d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+ .debug_frame   0x0000000000000474       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+
+Cross Reference Table
+
+Symbol                                            File
+_Balloc                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o)
+_Bfree                                            d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o)
+_PathLocale                                       d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+__any_on                                          d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__ascii_mbtowc                                    d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mbtowc_r.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+__ascii_wctomb                                    d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-wctomb_r.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+__b2d                                             d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__bss_end                                         build\src\startup.o
+__bss_start                                       build\src\startup.o
+__clz_tab                                         d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+__clzsi2                                          d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clzsi2.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+__copybits                                        d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__d2b                                             d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__divdf3                                          d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(divdf3.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__eqtf2                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+__errno                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-errno.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libgloss.a(sys_sbrk.o)
+__extenddftf2                                     d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(extenddftf2.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+__fixtfsi                                         d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(fixtfsi.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+__floatsitf                                       d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(floatsitf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+__getf2                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+__global_locale                                   d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-wctomb_r.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mbtowc_r.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-localeconv.o)
+__global_pointer$                                 build\src\startup.o
+__gttf2                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(getf2.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+__hi0bits                                         d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__i2b                                             d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__letf2                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+__lo0bits                                         d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__locale_mb_cur_max                               d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+__localeconv_l                                    d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-localeconv.o)
+__lshift                                          d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__lttf2                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(letf2.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+__malloc_av_                                      d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+__malloc_current_mallinfo                         d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+__malloc_lock                                     d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mlock.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+__malloc_max_sbrked_mem                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+__malloc_max_total_mem                            d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+__malloc_sbrk_base                                d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+__malloc_top_pad                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+__malloc_trim_threshold                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+__malloc_unlock                                   d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mlock.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+__mcmp                                            d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__mdiff                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__mprec_bigtens                                   d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__mprec_tens                                      d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__mprec_tinytens                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__muldf3                                          d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(muldf3.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-s_frexp.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__multadd                                         d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__multf3                                          d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(multf3.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+__multiply                                        d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__netf2                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(eqtf2.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+__pow5mult                                        d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__ratio                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__s2b                                             d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__ssprint_r                                       d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+__stack_default                                   build\src\startup.o
+__subtf3                                          d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(subtf3.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+__trunctfdf2                                      d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(trunctfdf2.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+__udivdi3                                         d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+__ulp                                             d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+__umoddi3                                         d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+_calloc_r                                         d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-callocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+_ctype_                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ctype_.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+_free_r                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reent.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+_global_impure_ptr                                d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-impure.o)
+_impure_ptr                                       d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-impure.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-errno.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reent.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sprintf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-vsprintf.o)
+_ldcheck                                          d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+_ldtoa_r                                          d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+_localeconv_r                                     d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-localeconv.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+_malloc_r                                         d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-callocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+_malloc_trim_r                                    d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+_mbtowc_r                                         d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mbtowc_r.o)
+_mprec_log10                                      d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+_realloc_r                                        d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+_reclaim_reent                                    d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reent.o)
+_sbrk                                             d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libgloss.a(sys_sbrk.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sbrkr.o)
+_sbrk_r                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sbrkr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-freer.o)
+_setlocale_r                                      d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+_sprintf_r                                        d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sprintf.o)
+_start                                            build\src\startup.o
+_svfiprintf_r                                     d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+_svfprintf_r                                      d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sprintf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-vsprintf.o)
+_vsprintf_r                                       d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-vsprintf.o)
+_wctomb_r                                         d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-wctomb_r.o)
+cleanup_glue                                      d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reent.o)
+crc8                                              build\src\crc.o
+crc8_l                                            build\src\crc.o
+                                                  build\src\main.o
+crc_array                                         build\src\crc.o
+errno                                             d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reent.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sbrkr.o)
+frexp                                             d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-s_frexp.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+get_byte                                          build\src\main.o
+localeconv                                        d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-localeconv.o)
+main                                              build\src\main.o
+                                                  build\src\startup.o
+memchr                                            d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memchr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+memcpy                                            d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memcpy.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-mprec.o)
+                                                  build\src\main.o
+memmove                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memmove-stub.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-reallocr.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+memset                                            d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-memset.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-callocr.o)
+my_printf                                         build\src\main.o
+pack_buf                                          build\src\main.o
+read_char                                         build\src\startup.o
+                                                  build\src\main.o
+send_char                                         build\src\startup.o
+                                                  build\src\main.o
+send_str                                          build\src\main.o
+setlocale                                         d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+sprintf                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-sprintf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o)
+strcmp                                            d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strcmp.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-locale.o)
+strcpy                                            d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strcpy.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-ldtoa.o)
+strlen                                            d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strlen.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+strncpy                                           d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-strncpy.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfiprintf.o)
+                                                  d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-svfprintf.o)
+vsprintf                                          d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a(lib_a-vsprintf.o)
+                                                  build\src\main.o

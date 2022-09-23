@@ -1,0 +1,11 @@
+set_property PACKAGE_PIN BF18 [get_ports rxd]
+set_property IOSTANDARD LVCMOS12 [get_ports rxd]
+set_property PACKAGE_PIN BB20 [get_ports txd]
+set_property IOSTANDARD LVCMOS12 [get_ports txd]
+
+set_property CONFIG_MODE SPIx4 [current_design]
+set_property BITSTREAM.GENERAL.COMPRESS TRUE [current_design]
+set_property BITSTREAM.CONFIG.CONFIGRATE 102.0 [current_design]
+set_property BITSTREAM.CONFIG.SPI_32BIT_ADDR YES [current_design]
+set_property BITSTREAM.CONFIG.SPI_BUSWIDTH 4 [current_design]
+set_property BITSTREAM.CONFIG.SPI_FALL_EDGE YES [current_design]

@@ -1,0 +1,314 @@
+Archive member included to satisfy reference by file (symbol)
+
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o)
+                              C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o (__divdi3)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_moddi3.o)
+                              C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o (__moddi3)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+                              C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o (__udivdi3)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+                              C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o (__umoddi3)
+d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+                              d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o) (__clz_tab)
+
+Allocating common symbols
+Common symbol       size              file
+
+static_memblk       0x7d0             C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ICCM             0x0000000080020000 0x0000000000040000 axw !rl
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD C:\Users\lizhirui\AppData\Local\Temp\cckER2wV.o
+LOAD C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+LOAD C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o
+LOAD d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libm.a
+LOAD d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a
+                0x0000000000008000                __stack_size = DEFINED (__stack_size)?__stack_size:0x8000
+
+.text.init      0x0000000080020000       0xe4
+ *(.text.init)
+ .text.init     0x0000000080020000       0xe4 C:\Users\lizhirui\AppData\Local\Temp\cckER2wV.o
+                0x0000000080020000                _start
+                0x00000000800200d0                send_char
+                0x00000000800200e4                . = ALIGN (0x4)
+
+.text           0x00000000800200e4     0xd6c0
+ *(.text.unlikely .text.unlikely.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x00000000800200e4     0x13e8 C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+                0x00000000800200e4                main
+ *(.text .text.*)
+ .text          0x00000000800214cc        0x0 C:\Users\lizhirui\AppData\Local\Temp\cckER2wV.o
+ .text          0x00000000800214cc     0x8384 C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+                0x00000000800214cc                cmp_idx
+                0x0000000080021528                copy_info
+                0x000000008002153c                core_list_init
+                0x0000000080021aa4                core_list_insert_new
+                0x0000000080021b04                core_list_remove
+                0x0000000080021b30                core_list_undo_remove
+                0x0000000080021b50                core_list_find
+                0x0000000080021bc0                core_list_reverse
+                0x0000000080021c68                core_list_mergesort
+                0x0000000080021e9c                matrix_test
+                0x0000000080023f98                core_bench_matrix
+                0x0000000080024254                core_init_matrix
+                0x0000000080024650                matrix_sum
+                0x0000000080024ae0                matrix_mul_const
+                0x0000000080024c90                matrix_add_const
+                0x0000000080024ee4                matrix_mul_vect
+                0x0000000080025118                matrix_mul_matrix
+                0x0000000080025398                matrix_mul_matrix_bitextract
+                0x00000000800255b8                core_init_state
+                0x0000000080025730                core_state_transition
+                0x0000000080025a60                core_bench_state
+                0x000000008002658c                calc_func
+                0x0000000080026bc0                cmp_complex
+                0x00000000800277c4                core_bench_list
+                0x00000000800282ec                iterate
+                0x0000000080028794                get_seed_32
+                0x00000000800287e8                crcu8
+                0x0000000080028924                crcu16
+                0x0000000080028ba4                crcu32
+                0x00000000800290b4                crc16
+                0x000000008002933c                check_data_types
+                0x0000000080029344                start_instret
+                0x00000000800293d0                stop_instret
+                0x000000008002945c                get_instret
+                0x0000000080029480                start_branch
+                0x0000000080029578                stop_branch
+                0x0000000080029670                get_branch_hit
+                0x0000000080029694                get_branch_total
+                0x00000000800296b8                start_time
+                0x0000000080029744                stop_time
+                0x00000000800297d0                get_time
+                0x00000000800297f4                time_in_secs
+                0x0000000080029818                portable_init
+                0x0000000080029824                portable_fini
+                0x000000008002982c                memset
+ .text          0x0000000080029850     0x2e38 C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o
+                0x000000008002c4b0                _putchar
+                0x000000008002c4f8                printf_
+                0x000000008002c54c                sprintf_
+                0x000000008002c59c                snprintf_
+                0x000000008002c5e8                vprintf_
+                0x000000008002c618                vsnprintf_
+                0x000000008002c634                fctprintf
+ .text          0x000000008002c688      0x480 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o)
+                0x000000008002c688                __divdi3
+ .text          0x000000008002cb08      0x458 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_moddi3.o)
+                0x000000008002cb08                __moddi3
+ .text          0x000000008002cf60      0x434 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+                0x000000008002cf60                __udivdi3
+ .text          0x000000008002d394      0x410 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+                0x000000008002d394                __umoddi3
+ .text          0x000000008002d7a4        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+ *(.gnu.linkonce.t.*)
+                0x000000008002d7a4                . = ALIGN (0x4)
+
+.rodata         0x000000008002d7a4      0x8b0
+ *(.rdata)
+ *(.rodata .rodata.*)
+ .rodata        0x000000008002d7a4       0x6c C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+ .rodata.str1.4
+                0x000000008002d810      0x564 C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+                                        0x562 (size before relaxing)
+ .rodata        0x000000008002dd74      0x1e0 C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o
+ .rodata        0x000000008002df54      0x100 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+                0x000000008002df54                __clz_tab
+ *(.gnu.linkonce.r.*)
+                0x000000008002e054                . = ALIGN (0x4)
+
+.eh_frame       0x000000008002e054       0x64
+ .eh_frame      0x000000008002e054       0x28 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o)
+ .eh_frame      0x000000008002e07c       0x14 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_moddi3.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x000000008002e090       0x14 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x000000008002e0a4       0x14 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+                                         0x28 (size before relaxing)
+
+.rela.dyn       0x000000008002e0b8        0x0
+ .rela.text.init
+                0x000000008002e0b8        0x0 C:\Users\lizhirui\AppData\Local\Temp\cckER2wV.o
+ .rela.text.startup
+                0x000000008002e0b8        0x0 C:\Users\lizhirui\AppData\Local\Temp\cckER2wV.o
+
+.data           0x000000008002e0b8        0xc
+ *(.data .data.*)
+ .data          0x000000008002e0b8        0x0 C:\Users\lizhirui\AppData\Local\Temp\cckER2wV.o
+ .data          0x000000008002e0b8        0xc C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+                0x000000008002e0b8                mem_name
+ .data          0x000000008002e0c4        0x0 C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o
+ .data          0x000000008002e0c4        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o)
+ .data          0x000000008002e0c4        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_moddi3.o)
+ .data          0x000000008002e0c4        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .data          0x000000008002e0c4        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .data          0x000000008002e0c4        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+ *(.gnu.linkonce.d.*)
+                0x000000008002e0c4                . = ALIGN (0x4)
+
+.sdata          0x000000008002e0c4        0xc
+                0x000000008002e0c4                . = ALIGN (0x4)
+                0x000000008002e8c4                __global_pointer$ = (. + 0x800)
+ *(.sdata .sdata.*)
+ .sdata         0x000000008002e0c4        0xc C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+                0x000000008002e0c4                default_num_contexts
+                0x000000008002e0c8                seed4_volatile
+                0x000000008002e0cc                seed3_volatile
+ *(.gnu.linkonce.s.*)
+                0x000000008002e0d0                . = ALIGN (0x4)
+ *(.srodata .srodata.*)
+                0x000000008002e0d0                . = ALIGN (0x4)
+                0x000000008002e0d0                __bss_start = .
+
+.sbss           0x000000008002e0d0       0x4c
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x000000008002e0d0       0x4c C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+                0x000000008002e110                seed5_volatile
+                0x000000008002e114                seed2_volatile
+                0x000000008002e118                seed1_volatile
+ *(.scommon)
+                0x000000008002e11c                . = ALIGN (0x4)
+
+.bss            0x000000008002e11c      0x7d0
+ *(.bss)
+ .bss           0x000000008002e11c        0x0 C:\Users\lizhirui\AppData\Local\Temp\cckER2wV.o
+ .bss           0x000000008002e11c        0x0 C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+ .bss           0x000000008002e11c        0x0 C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o
+ .bss           0x000000008002e11c        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o)
+ .bss           0x000000008002e11c        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_moddi3.o)
+ .bss           0x000000008002e11c        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .bss           0x000000008002e11c        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .bss           0x000000008002e11c        0x0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+                0x000000008002e11c                . = ALIGN (0x4)
+ COMMON         0x000000008002e11c      0x7d0 C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+                0x000000008002e11c                static_memblk
+                0x000000008002e8ec                _end = .
+
+.stack          0x000000008002e8ec     0x8000
+                0x000000008002e8ec                _heap_end = .
+                0x00000000800368ec                . = (. + __stack_size)
+ *fill*         0x000000008002e8ec     0x8000 
+                0x00000000800368ec                _sp = .
+                0x00000000800368ec                __bss_end = .
+OUTPUT(coremark_app.elf elf32-littleriscv)
+
+.riscv.attributes
+                0x0000000000000000       0x21
+ .riscv.attributes
+                0x0000000000000000       0x1f C:\Users\lizhirui\AppData\Local\Temp\cckER2wV.o
+ .riscv.attributes
+                0x000000000000001f       0x21 C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+ .riscv.attributes
+                0x0000000000000040       0x21 C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o
+ .riscv.attributes
+                0x0000000000000061       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o)
+ .riscv.attributes
+                0x0000000000000082       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_moddi3.o)
+ .riscv.attributes
+                0x00000000000000a3       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .riscv.attributes
+                0x00000000000000c4       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .riscv.attributes
+                0x00000000000000e5       0x21 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+
+.comment        0x0000000000000000       0x28
+ .comment       0x0000000000000000       0x28 C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+                                         0x29 (size before relaxing)
+ .comment       0x0000000000000028       0x29 C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_moddi3.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .comment       0x0000000000000028       0x29 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+
+.debug_line     0x0000000000000000    0x1c6c0
+ .debug_line    0x0000000000000000      0x178 C:\Users\lizhirui\AppData\Local\Temp\cckER2wV.o
+ .debug_line    0x0000000000000178    0x15938 C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+ .debug_line    0x0000000000015ab0     0x3b0a C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o
+ .debug_line    0x00000000000195ba      0xb51 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o)
+ .debug_line    0x000000000001a10b      0xbd1 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_moddi3.o)
+ .debug_line    0x000000000001acdc      0xaa8 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .debug_line    0x000000000001b784      0xb58 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .debug_line    0x000000000001c2dc      0x3e4 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+
+.debug_info     0x0000000000000000     0xc89f
+ .debug_info    0x0000000000000000       0x26 C:\Users\lizhirui\AppData\Local\Temp\cckER2wV.o
+ .debug_info    0x0000000000000026     0x5186 C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+ .debug_info    0x00000000000051ac     0x2156 C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o
+ .debug_info    0x0000000000007302     0x127b d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o)
+ .debug_info    0x000000000000857d     0x12d0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_moddi3.o)
+ .debug_info    0x000000000000984d     0x1245 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .debug_info    0x000000000000aa92     0x12a3 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .debug_info    0x000000000000bd35      0xb6a d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+
+.debug_abbrev   0x0000000000000000     0x1674
+ .debug_abbrev  0x0000000000000000       0x14 C:\Users\lizhirui\AppData\Local\Temp\cckER2wV.o
+ .debug_abbrev  0x0000000000000014      0x50a C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+ .debug_abbrev  0x000000000000051e      0x3e7 C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o
+ .debug_abbrev  0x0000000000000905      0x2e4 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o)
+ .debug_abbrev  0x0000000000000be9      0x2ef d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_moddi3.o)
+ .debug_abbrev  0x0000000000000ed8      0x2cc d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x00000000000011a4      0x2e8 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .debug_abbrev  0x000000000000148c      0x1e8 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+
+.debug_aranges  0x0000000000000000      0x100
+ .debug_aranges
+                0x0000000000000000       0x20 C:\Users\lizhirui\AppData\Local\Temp\cckER2wV.o
+ .debug_aranges
+                0x0000000000000020       0x28 C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+ .debug_aranges
+                0x0000000000000048       0x20 C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o
+ .debug_aranges
+                0x0000000000000068       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o)
+ .debug_aranges
+                0x0000000000000088       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_moddi3.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+ .debug_aranges
+                0x00000000000000e8       0x18 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+
+.debug_str      0x0000000000000000     0x12d4
+ .debug_str     0x0000000000000000       0x4c C:\Users\lizhirui\AppData\Local\Temp\cckER2wV.o
+ .debug_str     0x000000000000004c      0xc56 C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+                                        0xd60 (size before relaxing)
+ .debug_str     0x0000000000000ca2      0x16b C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o
+                                        0x2ce (size before relaxing)
+ .debug_str     0x0000000000000e0d      0x418 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o)
+                                        0x8c1 (size before relaxing)
+ .debug_str     0x0000000000001225        0x9 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_moddi3.o)
+                                        0x8c1 (size before relaxing)
+ .debug_str     0x000000000000122e        0xa d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+                                        0x8c2 (size before relaxing)
+ .debug_str     0x0000000000001238        0xa d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+                                        0x8c2 (size before relaxing)
+ .debug_str     0x0000000000001242       0x92 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_clz.o)
+                                        0x809 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x135f6
+ .debug_loc     0x0000000000000000     0xdde6 C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+ .debug_loc     0x000000000000dde6     0x2f43 C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o
+ .debug_loc     0x0000000000010d29      0x96d d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o)
+ .debug_loc     0x0000000000011696      0xa27 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_moddi3.o)
+ .debug_loc     0x00000000000120bd      0xbd0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .debug_loc     0x0000000000012c8d      0x969 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+
+.debug_ranges   0x0000000000000000     0x1d80
+ .debug_ranges  0x0000000000000000     0x1200 C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+ .debug_ranges  0x0000000000001200      0x808 C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o
+ .debug_ranges  0x0000000000001a08       0xe8 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_divdi3.o)
+ .debug_ranges  0x0000000000001af0       0xc0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_moddi3.o)
+ .debug_ranges  0x0000000000001bb0      0x100 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_udivdi3.o)
+ .debug_ranges  0x0000000000001cb0       0xd0 d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a(_umoddi3.o)
+
+.debug_frame    0x0000000000000000      0x7ac
+ .debug_frame   0x0000000000000000      0x5d0 C:\Users\lizhirui\AppData\Local\Temp\ccJzgHlG.o
+ .debug_frame   0x00000000000005d0      0x1dc C:\Users\lizhirui\AppData\Local\Temp\cc351ZZ5.o

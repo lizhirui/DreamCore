@@ -1,0 +1,169 @@
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 build\src\main.o
+ .data          0x0000000000000000        0x0 build\src\main.o
+ .bss           0x0000000000000000        0x0 build\src\main.o
+ .text          0x0000000000000000        0x0 build\src\startup.o
+ .data          0x0000000000000000        0x0 build\src\startup.o
+ .bss           0x0000000000000000        0x0 build\src\startup.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a
+LOAD d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libm.a
+LOAD build\src\main.o
+LOAD build\src\startup.o
+LOAD d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a
+START GROUP
+LOAD d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libc.a
+LOAD d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32\libgloss.a
+END GROUP
+LOAD d:/tools/riscv64-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32\libgcc.a
+                0x0000000080020000                BASE_ADDRESS = 0x80020000
+                0x0000000000000400                STACK_SIZE = 0x400
+                0x0000000080020000                . = BASE_ADDRESS
+                0x0000000080020000                start = .
+
+.text           0x0000000080020000      0x2a4
+                0x0000000080020000                stext = .
+ *(.text.entry)
+ .text.entry    0x0000000080020000      0x190 build\src\startup.o
+                0x0000000080020000                _start
+                0x00000000800200dc                send_char
+                0x0000000080020188                read_mcycle
+ *(.text .text.*)
+ .text.send_str
+                0x0000000080020190       0x50 build\src\main.o
+                0x0000000080020190                send_str
+ .text.delay    0x00000000800201e0       0x64 build\src\main.o
+                0x00000000800201e0                delay
+ .text.main     0x0000000080020244       0x28 build\src\main.o
+                0x0000000080020244                main
+ .text.trap_entry_c
+                0x000000008002026c       0x38 build\src\main.o
+                0x000000008002026c                trap_entry_c
+                0x00000000800202a4                etext = .
+                0x00000000800202a8                . = ALIGN (0x8)
+
+.rodata         0x00000000800202a8       0x48
+                0x00000000800202a8                srodata = .
+ *(.rodata .rodata.* .rodata*)
+ .rodata        0x00000000800202a8       0x48 build\src\main.o
+ *(.srodata .srodata.* .srodata*)
+                0x00000000800202f0                erodata = .
+
+.rela.dyn       0x00000000800202f0        0x0
+ .rela.text.entry
+                0x00000000800202f0        0x0 build\src\main.o
+                0x00000000800202f0                . = ALIGN (0x8)
+                0x00000000800202f0                . = ALIGN (0x8)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry)
+
+.eh_frame
+ *(.eh_frame)
+                0x00000000800202f0                . = ALIGN (0x8)
+
+.data           0x00000000800202f0        0x0
+                0x00000000800202f0                sdata = .
+ *(.data .data.*)
+                0x00000000800202f0                . = ALIGN (0x8)
+                0x0000000080020af0                PROVIDE (__global_pointer$ = (. + 0x800))
+ *(.sdata .sdata.*)
+                0x00000000800202f0                edata = .
+                0x00000000800202f0                . = ALIGN (0x8)
+                0x00000000800202f0                __bss_start = .
+
+.bss            0x00000000800202f0     0x1d10
+                0x00000000800202f0                sbss = .
+ *(.sbss .sbss.*)
+ *(.dynsbss)
+ *(.scommon)
+ *(.bss .bss.*)
+ *(.dynbss)
+ *(COMMON)
+                0x0000000080021000                . = ALIGN (0x1000)
+ *fill*         0x00000000800202f0      0xd10 
+                [!provide]                        PROVIDE (__stack_start = .)
+                0x0000000080021400                . = (. + STACK_SIZE)
+ *fill*         0x0000000080021000      0x400 
+                0x0000000080021400                . = ALIGN (0x8)
+                0x0000000080021400                PROVIDE (__stack_default = .)
+                0x0000000080021400                ebss = .
+                0x0000000080021400                __bss_end = .
+                0x0000000080022000                . = ALIGN (0x1000)
+ *fill*         0x0000000080021400      0xc00 
+                0x0000000080022000                _heap_start = .
+                [!provide]                        PROVIDE (end = .)
+OUTPUT(ext_int_test_app.elf elf32-littleriscv)
+
+.debug_info     0x0000000000000000      0x1c3
+ .debug_info    0x0000000000000000      0x19d build\src\main.o
+ .debug_info    0x000000000000019d       0x26 build\src\startup.o
+
+.debug_abbrev   0x0000000000000000       0xf9
+ .debug_abbrev  0x0000000000000000       0xe5 build\src\main.o
+ .debug_abbrev  0x00000000000000e5       0x14 build\src\startup.o
+
+.debug_loc      0x0000000000000000       0xa2
+ .debug_loc     0x0000000000000000       0xa2 build\src\main.o
+
+.debug_aranges  0x0000000000000000       0x58
+ .debug_aranges
+                0x0000000000000000       0x38 build\src\main.o
+ .debug_aranges
+                0x0000000000000038       0x20 build\src\startup.o
+
+.debug_ranges   0x0000000000000000       0x28
+ .debug_ranges  0x0000000000000000       0x28 build\src\main.o
+
+.debug_line     0x0000000000000000      0x3ea
+ .debug_line    0x0000000000000000      0x180 build\src\main.o
+ .debug_line    0x0000000000000180      0x26a build\src\startup.o
+
+.debug_str      0x0000000000000000      0x1a1
+ .debug_str     0x0000000000000000      0x187 build\src\main.o
+                                        0x1c5 (size before relaxing)
+ .debug_str     0x0000000000000187       0x1a build\src\startup.o
+                                         0x59 (size before relaxing)
+
+.comment        0x0000000000000000       0x28
+ .comment       0x0000000000000000       0x28 build\src\main.o
+                                         0x29 (size before relaxing)
+
+.riscv.attributes
+                0x0000000000000000       0x21
+ .riscv.attributes
+                0x0000000000000000       0x21 build\src\main.o
+ .riscv.attributes
+                0x0000000000000021       0x1f build\src\startup.o
+
+.debug_frame    0x0000000000000000       0xa4
+ .debug_frame   0x0000000000000000       0xa4 build\src\main.o
+
+Cross Reference Table
+
+Symbol                                            File
+__bss_end                                         build\src\startup.o
+__bss_start                                       build\src\startup.o
+__global_pointer$                                 build\src\startup.o
+__stack_default                                   build\src\startup.o
+_start                                            build\src\startup.o
+delay                                             build\src\main.o
+main                                              build\src\main.o
+                                                  build\src\startup.o
+read_mcycle                                       build\src\startup.o
+                                                  build\src\main.o
+send_char                                         build\src\startup.o
+                                                  build\src\main.o
+send_str                                          build\src\main.o
+trap_entry_c                                      build\src\main.o
+                                                  build\src\startup.o

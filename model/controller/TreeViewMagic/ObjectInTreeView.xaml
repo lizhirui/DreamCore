@@ -1,0 +1,129 @@
+﻿<UserControl x:Class="TreeViewMagic.ObjectInTreeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TreeViewMagic"
+			 x:Name="ObjectInTreeViewControl">
+	<UserControl.Resources>
+		<PathGeometry x:Key="TreeArrow" Figures="M0,0 L0,6 L6,0 z" />
+        <Style x:Key="ExpandCollapseToggleStyle" TargetType="{x:Type ToggleButton}">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Focusable" Value="False" />
+            <Setter Property="Foreground" Value="#127bbb" />
+            <Setter Property="Height" Value="16" />
+            <Setter Property="Margin" Value="1" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ToggleButton}">
+                        <Grid Width="16"
+                              Height="16"
+                              Margin="{TemplateBinding Margin}"
+                              Background="Transparent">
+                            <Path x:Name="ExpandPath"
+                                  HorizontalAlignment="Center"
+                                  VerticalAlignment="Center"
+                                  Data="{StaticResource TreeArrow}"
+                                  Fill="{TemplateBinding Background}"
+                                  Stroke="{TemplateBinding Foreground}">
+                                <Path.RenderTransform>
+                                    <RotateTransform Angle="135" CenterX="3" CenterY="3" />
+                                </Path.RenderTransform>
+                            </Path>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="ExpandPath" Property="Fill" Value="#FF127bbb" />
+                                <Setter TargetName="ExpandPath" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <RotateTransform Angle="180" CenterX="3" CenterY="3" />
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="ExpandPath" Property="Stroke" Value="#FF555500" />
+                            </Trigger>
+                            <MultiTrigger>
+                                <MultiTrigger.Conditions>
+                                    <Condition Property="IsEnabled" Value="False" />
+                                    <Condition Property="IsChecked" Value="True" />
+                                </MultiTrigger.Conditions>
+                                <Setter TargetName="ExpandPath" Property="Fill" Value="#FF555555" />
+                                <Setter TargetName="ExpandPath" Property="Stroke" Value="#FF555555" />
+                            </MultiTrigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="ExpandPath" Property="Fill" Value="#FFFF5555" />
+                                <Setter TargetName="ExpandPath" Property="Stroke" Value="#FFFF5555" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Width" Value="16" />
+        </Style>
+	</UserControl.Resources>
+
+	<TreeView ItemsSource="{Binding TreeNodes, ElementName=ObjectInTreeViewControl}">
+		<TreeView.ItemContainerStyle>
+			<Style TargetType="TreeViewItem"> 
+				<Setter Property="IsExpanded" Value="True" /> 
+				<Setter Property="Foreground" Value="#FFF0F0F0"/>
+				<Setter Property="Template">
+					<Setter.Value>
+						<ControlTemplate TargetType="{x:Type TreeViewItem}">
+							<Grid>
+								<Grid.ColumnDefinitions>
+									<ColumnDefinition Width="16" />
+									<ColumnDefinition/>
+								</Grid.ColumnDefinitions>
+								<Grid.RowDefinitions>
+									<RowDefinition />
+									<RowDefinition />
+								</Grid.RowDefinitions>
+								<Border Grid.Column="0" Grid.ColumnSpan="2" Margin="-1600,0,0,0"  x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}"  SnapsToDevicePixels="true"/>
+								<ToggleButton Grid.Column="0" x:Name="Expander" ClickMode="Press" IsChecked="{Binding IsExpanded, RelativeSource={RelativeSource TemplatedParent}}" Style="{StaticResource ExpandCollapseToggleStyle}"/>
+                                <ContentPresenter Grid.Column="1" x:Name="PART_Header" ContentSource="Header" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/> 
+                                <Border Background="Transparent" Grid.Column="1" Margin="-1600,0,0,0" />
+                                <ItemsPresenter  x:Name="ItemsHost" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="1"/>
+							</Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsExpanded" Value="false">
+                                    <Setter Property="Visibility" TargetName="ItemsHost" Value="Collapsed"/>
+                                </Trigger>
+                                <Trigger Property="HasItems" Value="false">
+                                    <Setter Property="Visibility" TargetName="Expander" Value="Hidden"/>
+                                </Trigger>
+                                <Trigger Property="IsSelected" Value="true">
+                                    <Setter Property="Background" TargetName="Bd" Value="yellow" />
+                                    <Setter Property="Background" TargetName="Expander" Value="yellow"/>
+                                </Trigger>
+                                <MultiTrigger>
+                                    <MultiTrigger.Conditions>
+                                        <Condition Property="IsSelected" Value="true"/>
+                                        <Condition Property="IsSelectionActive" Value="false"/>
+                                    </MultiTrigger.Conditions>
+                                    <Setter Property="Background" TargetName="Bd" Value="yellow"/>
+                                    <Setter Property="Background" TargetName="Expander" Value="yellow"/>
+                                </MultiTrigger>
+                                <Trigger Property="IsEnabled" Value="false">
+                                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+						</ControlTemplate>
+					</Setter.Value>
+				</Setter>
+			</Style> 
+		</TreeView.ItemContainerStyle>
+		<TreeView.Resources>
+			<HierarchicalDataTemplate DataType="{x:Type local:TreeNode}" ItemsSource="{Binding Path=Children}">
+				<TreeViewItem>
+					<TreeViewItem.Header>
+						<StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+							<TextBlock Text="{Binding Path=Name}" VerticalAlignment="Center" />
+							<TextBlock Text=" : " VerticalAlignment="Center" />
+							<TextBlock Text="{Binding Path=Value}" VerticalAlignment="Center" />
+						</StackPanel>
+					</TreeViewItem.Header>
+				</TreeViewItem>
+			</HierarchicalDataTemplate>
+		</TreeView.Resources>
+	</TreeView>
+</UserControl>

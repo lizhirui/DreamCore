@@ -1,0 +1,11 @@
++incdir+$SIM_ROOT_DIR/tools/tdb_reader
+$SIM_ROOT_DIR/tools/tdb_reader/tdb_reader.a
+top.sv
+$SIM_ROOT_DIR/rtl/issue.sv
+$SIM_ROOT_DIR/rtl/issue_queue.sv
+$SIM_ROOT_DIR/rtl/count_one.sv
+$SIM_ROOT_DIR/rtl/parallel_finder.sv
+$SIM_ROOT_DIR/rtl/data_selector.sv
+$SIM_ROOT_DIR/rtl/list_enabled_item_id.sv
+$SIM_ROOT_DIR/rtl/priority_finder.sv
++incdir+$SIM_ROOT_DIR/rtl

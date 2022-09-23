@@ -1,0 +1,278 @@
+﻿<Window x:Class="MyRISC_VCore_Model_GUI.PipelineStatusWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyRISC_VCore_Model_GUI"
+        xmlns:converter="clr-namespace:MyRISC_VCore_Model_GUI.Converter"
+        xmlns:wpf="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
+        xmlns:cef="clr-namespace:CefSharp;assembly=CefSharp.Core"
+        xmlns:magic="clr-namespace:TreeViewMagic"
+        mc:Ignorable="d"
+        FontFamily="Consolas"
+        Title="PipelineStatusWindow" Height="900" Width="1440" Loaded="Window_Loaded" LocationChanged="Window_LocationChanged" Closed="Window_Closed">
+
+    <Window.Resources>
+        <Style x:Key="ListViewItemHighlight" TargetType="{x:Type ListViewItem}">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=Highlight}" Value="True">
+                    <Setter Property="Background" Value="Yellow" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="ListViewHeaderHidden" TargetType="{x:Type GridViewColumnHeader}">
+            <Setter Property="Visibility" Value="Collapsed" />
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" x:Name="GridCol0Width" />
+        <Grid Grid.Column="1" x:Name="GridCol1Width" />
+        <Grid Grid.Column="2" x:Name="GridCol2Width" />
+        <Grid Grid.Column="3" x:Name="GridCol3Width" />
+        <Grid Grid.Column="4" x:Name="GridCol4Width" />
+
+        <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Content="FETCH:" />
+        <Label Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Content="PC = 0x80000000 jump__wait = true" x:Name="label_Fetch" />
+        <Label Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Content="FETCH->DECODE:" />
+        <ListView Grid.Row="3" Grid.Column="0" Grid.RowSpan="10" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Fetch_Decode" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Fetch_Decode_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol0Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="13" Grid.Column="0" VerticalAlignment="Center" Content="DECODE->RENAME:" />
+        <ListView Grid.Row="14" Grid.Column="0" Grid.RowSpan="10" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Decode_Rename" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Decode_Rename_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol0Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="24" Grid.Column="0" VerticalAlignment="Center" Content="RENAME->READREG:" />
+        <ListView Grid.Row="25" Grid.Column="0" Grid.RowSpan="2" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Rename_Readreg" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Rename_Readreg_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol0Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="27" Grid.Column="0" VerticalAlignment="Center" Content="READREG->ISSUE:" />
+        <ListView Grid.Row="28" Grid.Column="0" Grid.RowSpan="2" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Readreg_Issue" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Readreg_Issue_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol0Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <Label Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Content="ISSUE QUEUE:" />
+        <ListView Grid.Row="1" Grid.Column="1" Grid.RowSpan="16" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_IssueQueue" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_IssueQueue_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol1Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="17" Grid.Column="1" VerticalAlignment="Center" Content="ISSUE->EXECUTE(ALU0):" />
+        <ListView Grid.Row="18" Grid.Column="1" Grid.RowSpan="4" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Issue_Execute_ALU0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Issue_Execute_ALU0_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol1Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="22" Grid.Column="1" VerticalAlignment="Center" Content="ISSUE->EXECUTE(ALU1):" />
+        <ListView Grid.Row="23" Grid.Column="1" Grid.RowSpan="4" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Issue_Execute_ALU1" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Issue_Execute_ALU1_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol1Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="27" Grid.Column="1" VerticalAlignment="Center" Content="ISSUE->EXECUTE(BRU):" />
+        <ListView Grid.Row="28" Grid.Column="1" Grid.RowSpan="4" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Issue_Execute_BRU" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Issue_Execute_BRU_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol1Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <Label Grid.Row="0" Grid.Column="2" VerticalAlignment="Center" Content="ISSUE->EXECUTE(CSR):" />
+        <ListView Grid.Row="1" Grid.Column="2" Grid.RowSpan="1" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Issue_Execute_CSR" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Issue_Execute_CSR_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol2Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" Content="ISSUE->EXECUTE(DIV):" />
+        <ListView Grid.Row="3" Grid.Column="2" Grid.RowSpan="4" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Issue_Execute_DIV" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Issue_Execute_DIV_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol2Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="7" Grid.Column="2" VerticalAlignment="Center" Content="ISSUE->EXECUTE(LSU):" />
+        <ListView Grid.Row="8" Grid.Column="2" Grid.RowSpan="4" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Issue_Execute_LSU" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Issue_Execute_LSU_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol2Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="12" Grid.Column="2" VerticalAlignment="Center" Content="ISSUE->EXECUTE(MUL0):" />
+        <ListView Grid.Row="13" Grid.Column="2" Grid.RowSpan="4" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Issue_Execute_MUL0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Issue_Execute_MUL0_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol2Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="17" Grid.Column="2" VerticalAlignment="Center" Content="ISSUE->EXECUTE(MUL1):" />
+        <ListView Grid.Row="18" Grid.Column="2" Grid.RowSpan="4" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Issue_Execute_MUL1" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Issue_Execute_MUL1_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol2Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="22" Grid.Column="2" VerticalAlignment="Center" Content="EXECUTE->WB(ALU0)" />
+        <ListView Grid.Row="23" Grid.Column="2" Grid.RowSpan="1" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Execute_WB_ALU0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Execute_WB_ALU0_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol2Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="24" Grid.Column="2" VerticalAlignment="Center" Content="EXECUTE->WB(ALU1)" />
+        <ListView Grid.Row="25" Grid.Column="2" Grid.RowSpan="1" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Execute_WB_ALU1" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Execute_WB_ALU1_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol2Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="26" Grid.Column="2" VerticalAlignment="Center" Content="EXECUTE->WB(BRU)" />
+        <ListView Grid.Row="27" Grid.Column="2" Grid.RowSpan="1" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Execute_WB_BRU" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Execute_WB_BRU_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol2Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="28" Grid.Column="2" VerticalAlignment="Center" Content="EXECUTE->WB(CSR)" />
+        <ListView Grid.Row="29" Grid.Column="2" Grid.RowSpan="1" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Execute_WB_CSR" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Execute_WB_CSR_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol2Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="30" Grid.Column="2" VerticalAlignment="Center" Content="EXECUTE->WB(DIV)" />
+        <ListView Grid.Row="31" Grid.Column="2" Grid.RowSpan="1" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Execute_WB_DIV" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Execute_WB_DIV_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol2Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="0" Grid.Column="3" VerticalAlignment="Center" Content="EXECUTE->WB(LSU)" />
+        <ListView Grid.Row="1" Grid.Column="3" Grid.RowSpan="1" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Execute_WB_LSU" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Execute_WB_LSU_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol3Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="2" Grid.Column="3" VerticalAlignment="Center" Content="EXECUTE->WB(MUL0)" />
+        <ListView Grid.Row="3" Grid.Column="3" Grid.RowSpan="1" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Execute_WB_MUL0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Execute_WB_MUL0_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol3Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="4" Grid.Column="3" VerticalAlignment="Center" Content="EXECUTE->WB(MUL1)" />
+        <ListView Grid.Row="5" Grid.Column="3" Grid.RowSpan="1" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_Execute_WB_MUL1" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_Execute_WB_MUL1_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol3Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="6" Grid.Column="3" VerticalAlignment="Center" Content="WB->COMMIT" />
+        <ListView Grid.Row="7" Grid.Column="3" Grid.RowSpan="8" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_WB_Commit" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_WB_Commit_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol3Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Grid.Row="15" Grid.Column="3" VerticalAlignment="Center" Content="ISSUE FEEDBACK:" />
+        <Label Grid.Row="16" Grid.Column="3" VerticalAlignment="Center" Content="stall = false" x:Name="label_Issue_Feedback" />
+        <Label Grid.Row="17" Grid.Column="3" VerticalAlignment="Center" Content="BRU FEEDBACK:" />
+        <Label Grid.Row="18" Grid.Column="3" VerticalAlignment="Center" Content="disabled" x:Name="label_BRU_Feedback" />
+        <Label Grid.Row="19" Grid.Column="3" VerticalAlignment="Center" Content="WB FEEDBACK:" />
+        <Button Grid.Row="20" Grid.Column="3" VerticalAlignment="Center" Content="no feedback" x:Name="button_WB_Feedback" Click="button_WB_Feedback_Click" />
+        <Label Grid.Row="21" Grid.Column="3" VerticalAlignment="Center" Content="COMMIT FEEDBACK:" />
+        <Button Grid.Row="22" Grid.Column="3" VerticalAlignment="Center" Content="no feedback" x:Name="button_Commit_Feedback" Click="button_Commit_Feedback_Click" />
+        <Label Grid.Row="23" Grid.Column="3" VerticalAlignment="Center" Content="ROB:" />
+        <ListView Grid.Row="24" Grid.Column="3" Grid.RowSpan="8" ItemContainerStyle="{StaticResource ListViewItemHighlight}" x:Name="listView_ROB" ScrollViewer.HorizontalScrollBarVisibility="Disabled" PreviewMouseLeftButtonUp="listView_ROB_PreviewMouseLeftButtonUp">
+            <ListView.View>
+                <GridView ColumnHeaderContainerStyle="{StaticResource ListViewHeaderHidden}">
+                    <GridViewColumn Header="Value" Width="{Binding ElementName=GridCol3Width,Path=ActualWidth}"  DisplayMemberBinding="{Binding Path=Value}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        
+        <magic:ObjectInTreeView Grid.Row="0" Grid.Column="4" Grid.RowSpan="32" x:Name="objectInTreeView_Detail" />
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+from building import *
+
+Import('osconfig')
+
+cwd     = GetCurrentDir()
+src     = Glob('*.c') + Glob('*.cpp') + Glob('*.S')
+CPPPATH = [cwd]
+ASFLAGS = ''
+
+group = DefineGroup('src', src, depend = [''], CPPPATH = CPPPATH, ASFLAGS = ASFLAGS)
+
+Return('group')

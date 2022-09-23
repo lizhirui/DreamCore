@@ -1,0 +1,172 @@
+﻿<Window x:Class="MyRISC_VCore_Model_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyRISC_VCore_Model_GUI"
+        xmlns:converter="clr-namespace:MyRISC_VCore_Model_GUI.Converter"
+        mc:Ignorable="d"
+        FontFamily="Consolas"
+        Title="CPU_Model Debugger LiZhirui" Height="900" Width="1440" Loaded="Window_Loaded" LocationChanged="Window_LocationChanged">
+
+    <Window.Resources>
+        <converter:ConnectionStatusValueConverter x:Key="ConnectionStatusValueConverter" />
+        <converter:ConnectionStatusColorConverter x:Key="ConnectionStatusColorConverter" />
+        <converter:RunningStatusValueConverter x:Key="RunningStatusValueConverter" />
+        <converter:RunningStatusColorConverter x:Key="RunningStatusColorConverter" />
+        <converter:CPUCycleConverter x:Key="CPUCycleConverter" />
+        <converter:PCConverter x:Key="PCConverter" />
+        <Style x:Key="ListViewItemHighlight" TargetType="{x:Type ListViewItem}">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=Highlight}" Value="True">
+                    <Setter Property="Background" Value="Yellow" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Window.CommandBindings>
+        <CommandBinding Command="local:CustomCommands.Continue" Executed="Continue_Executed" />
+        <CommandBinding Command="local:CustomCommands.Pause" Executed="Pause_Executed" />
+        <CommandBinding Command="local:CustomCommands.StepCommit" Executed="StepCommit_Executed" />
+        <CommandBinding Command="local:CustomCommands.Step" Executed="Step_Executed" />
+        <CommandBinding Command="local:CustomCommands.Reset" Executed="Reset_Executed" />
+    </Window.CommandBindings>
+
+    <Window.InputBindings>
+        <KeyBinding Key="F5" Modifiers="" Command="local:CustomCommands.Continue" />
+        <KeyBinding Key="F6" Modifiers="" Command="local:CustomCommands.Pause" />
+        <KeyBinding Key="F7" Modifiers="" Command="local:CustomCommands.StepCommit" />
+        <KeyBinding Key="F11" Modifiers="" Command="local:CustomCommands.Step" />
+        <KeyBinding Key="F4" Modifiers="" Command="local:CustomCommands.Reset" />
+    </Window.InputBindings>
+
+    <DockPanel LastChildFill="True">
+        <Menu DockPanel.Dock="Top" VerticalAlignment="Top">
+            <MenuItem Header="File(_F)">
+                <MenuItem x:Name="menuItem_File_Load" Header="Load(_L)..." Click="menuItem_File_Load_Click" />
+            </MenuItem>
+            <MenuItem Header="Debug(_D)">
+                <MenuItem x:Name="menuItem_Debug_Continue" Header="Continue(_C)" Command="local:CustomCommands.Continue" InputGestureText="F5" />
+                <MenuItem x:Name="menuItem_Debug_Pause" Header="Pause(_P)" Command="local:CustomCommands.Pause" InputGestureText="F6" />
+                <MenuItem x:Name="menuItem_Debug_StepCommit" Header="StepCommit(_T)" Command="local:CustomCommands.StepCommit" InputGestureText="F7" />
+                <MenuItem x:Name="menuItem_Debug_Step" Header="Step(_S)" Command="local:CustomCommands.Step" InputGestureText="F11" />
+                <MenuItem x:Name="menuItem_Debug_Reset" Header="Reset(_R)" Command="local:CustomCommands.Reset" InputGestureText="F4" />
+            </MenuItem>
+            <MenuItem Header="System(_S)">
+                <MenuItem x:Name="menuItem_System_Connect" Header="Connect(_C).." Click="menuItem_System_Connect_Click" />
+            </MenuItem>
+            <MenuItem Header="Window(_W)">
+                <MenuItem x:Name="menuItem_Window_PipelineStatus" Header="PipelineStatus(_P).." Click="menuItem_Window_PipelineStatus_Click" />
+            </MenuItem>
+            <MenuItem Header="Help(_H)">
+                <MenuItem x:Name="menuItem_Help_About" Header="About(_A)" Click="menuItem_Help_About_Click" />
+            </MenuItem>
+            <Label Content="{Binding Source={x:Static local:Global.connected}, Path=Value, Converter={StaticResource ConnectionStatusValueConverter}}" Foreground="{Binding Source={x:Static local:Global.connected}, Path=Value, Converter={StaticResource ConnectionStatusColorConverter}}"/>
+            <Label Content="{Binding Source={x:Static local:Global.running}, Path=Value, Converter={StaticResource RunningStatusValueConverter}}" Foreground="{Binding Source={x:Static local:Global.running}, Path=Value, Converter={StaticResource RunningStatusColorConverter}}"/>
+            <Label Content="{Binding Source={x:Static local:Global.cpuCycle}, Path=Value, Converter={StaticResource CPUCycleConverter}}" />
+            <Label Content="{Binding Source={x:Static local:Global.pc}, Path=Value, Converter={StaticResource PCConverter}}" />
+        </Menu>
+        <Grid DockPanel.Dock="Bottom">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="4*"></RowDefinition>
+                <RowDefinition Height="2*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="300"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Row="0" Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30" />
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="200" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" x:Name="listView_Instruction_Col0" />
+                <Grid Grid.Column="1" x:Name="listView_Instruction_Col1" />
+                <Grid Grid.Column="2" x:Name="listView_Instruction_Col2" />
+                <Grid Grid.Column="3" x:Name="listView_Instruction_Col3" />
+            </Grid>
+
+            <ListView Grid.Row="0" Grid.Column="0" x:Name="listView_Instruction" ItemContainerStyle="{StaticResource ListViewItemHighlight}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="" Width="{Binding ElementName=listView_Instruction_Col0,Path=ActualWidth}" DisplayMemberBinding="{Binding Path=Status}" />
+                        <GridViewColumn Header="Address" Width="{Binding ElementName=listView_Instruction_Col1,Path=ActualWidth}" DisplayMemberBinding="{Binding Path=Address}" />
+                        <GridViewColumn Header="Data" Width="{Binding ElementName=listView_Instruction_Col2,Path=ActualWidth}" DisplayMemberBinding="{Binding Path=Data}" />
+                        <GridViewColumn Header="Instruction" Width="{Binding ElementName=listView_Instruction_Col3,Path=ActualWidth}" DisplayMemberBinding="{Binding Path=Instruction}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+            <DockPanel Grid.Row="1" Grid.Column="0" LastChildFill="True">
+                <TextBox DockPanel.Dock="Top" x:Name="textBox_MemoryAddress" KeyDown="textBox_MemoryAddress_KeyDown" />
+                <Grid DockPanel.Dock="Bottom">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="120" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="300" />
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" x:Name="listView_Memory_Col0" />
+                        <Grid Grid.Column="1" x:Name="listView_Memory_Col1" />
+                        <Grid Grid.Column="2" x:Name="listView_Memory_Col2" />
+                    </Grid>
+                    <ListView x:Name="listView_Memory">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Address" Width="{Binding ElementName=listView_Memory_Col0,Path=ActualWidth}" DisplayMemberBinding="{Binding Path=Address}" />
+                                <GridViewColumn Header="Data" Width="{Binding ElementName=listView_Memory_Col1,Path=ActualWidth}" DisplayMemberBinding="{Binding Path=Data}" />
+                                <GridViewColumn Header="Text" Width="{Binding ElementName=listView_Memory_Col2,Path=ActualWidth}" DisplayMemberBinding="{Binding Path=Text}" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+            </DockPanel>
+
+            <DockPanel Grid.Row="2" Grid.Column="0" LastChildFill="True">
+                <TextBox DockPanel.Dock="Bottom" x:Name="textBox_Command" KeyDown="textBox_Command_KeyDown" />
+                <TextBox DockPanel.Dock="Top" x:Name="textBox_CommandLog" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" IsReadOnly="True" />
+            </DockPanel>
+
+            <Grid Grid.Row="0" Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="80" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" x:Name="listView_ArchRegister_Col0" />
+                <Grid Grid.Column="1" x:Name="listView_ArchRegister_Col1" />
+            </Grid>
+
+            <ListView Grid.Row="0" Grid.Column="1" x:Name="listView_ArchRegister" ItemContainerStyle="{StaticResource ListViewItemHighlight}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Register" Width="{Binding ElementName=listView_ArchRegister_Col0,Path=ActualWidth}" DisplayMemberBinding="{Binding Path=Name}" />
+                        <GridViewColumn Header="Value" Width="{Binding ElementName=listView_ArchRegister_Col1,Path=ActualWidth}" DisplayMemberBinding="{Binding Path=Value}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+            <Grid Grid.Row="1" Grid.Column="1" Grid.RowSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="80" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0" x:Name="listView_CSR_Col0" />
+                <Grid Grid.Column="1" x:Name="listView_CSR_Col1" />
+            </Grid>
+
+            <ListView Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" x:Name="listView_CSR" ItemContainerStyle="{StaticResource ListViewItemHighlight}">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="CSR" Width="{Binding ElementName=listView_CSR_Col0,Path=ActualWidth}" DisplayMemberBinding="{Binding Path=Name}" />
+                        <GridViewColumn Header="Value" Width="{Binding ElementName=listView_CSR_Col1,Path=ActualWidth}" DisplayMemberBinding="{Binding Path=Value}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+    </DockPanel>
+</Window>

@@ -1,0 +1,300 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_moddi3.o)
+                              /tmp/ccuQhCwB.o (__moddi3)
+/home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                              /tmp/ccuQhCwB.o (__udivdi3)
+/home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+                              /tmp/ccuQhCwB.o (__umoddi3)
+/home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+                              /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_moddi3.o) (__clz_tab)
+/home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcmp.o)
+                              /tmp/ccxYWN6z.o (strcmp)
+
+Allocating common symbols
+Common symbol       size              file
+
+Microseconds        0x8               /tmp/ccuQhCwB.o
+Dhrystones_Per_Second
+                    0x8               /tmp/ccuQhCwB.o
+User_Time           0x8               /tmp/ccuQhCwB.o
+Begin_Time          0x8               /tmp/ccuQhCwB.o
+Arr_2_Glob          0x2710            /tmp/ccuQhCwB.o
+End_Time            0x8               /tmp/ccuQhCwB.o
+Next_Ptr_Glob       0x4               /tmp/ccuQhCwB.o
+Int_Glob            0x4               /tmp/ccuQhCwB.o
+Ch_1_Glob           0x1               /tmp/ccuQhCwB.o
+Ch_2_Glob           0x1               /tmp/ccuQhCwB.o
+Ptr_Glob            0x4               /tmp/ccuQhCwB.o
+Done                0x4               /tmp/ccuQhCwB.o
+Arr_1_Glob          0xc8              /tmp/ccuQhCwB.o
+Bool_Glob           0x4               /tmp/ccuQhCwB.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ICCM             0x0000000080000000 0x0000000000040000 axw !rl
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/ccyWAg5y.o
+LOAD /tmp/ccxYWN6z.o
+LOAD /tmp/ccuQhCwB.o
+LOAD /tmp/ccJePJYy.o
+LOAD /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libm.a
+LOAD /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a
+LOAD /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a
+START GROUP
+LOAD /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a
+LOAD /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a
+END GROUP
+LOAD /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a
+                0x0000000000008000                __stack_size = DEFINED (__stack_size)?__stack_size:0x8000
+
+.text.init      0x0000000080000000       0xdc
+ *(.text.init)
+ .text.init     0x0000000080000000       0xdc /tmp/ccyWAg5y.o
+                0x0000000080000000                _start
+                0x00000000800000d4                send_char
+                0x00000000800000dc                . = ALIGN (0x4)
+
+.text           0x00000000800000dc     0x50d8
+ *(.text.unlikely .text.unlikely.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x00000000800000dc      0xa38 /tmp/ccuQhCwB.o
+                0x00000000800000dc                main
+ *(.text .text.*)
+ .text          0x0000000080000b14        0x0 /tmp/ccyWAg5y.o
+ .text          0x0000000080000b14      0x244 /tmp/ccxYWN6z.o
+                0x0000000080000b14                Proc_7
+                0x0000000080000b24                Proc_8
+                0x0000000080000b8c                Func_1
+                0x0000000080000bb0                Func_2
+                0x0000000080000c88                Func_3
+                0x0000000080000c94                Proc_6
+ .text          0x0000000080000d58      0x6c4 /tmp/ccuQhCwB.o
+                0x0000000080000d58                start_instret
+                0x0000000080000de4                stop_instret
+                0x0000000080000e70                get_instret
+                0x0000000080000e94                start_branch
+                0x0000000080000f8c                stop_branch
+                0x0000000080001084                get_branch_hit
+                0x00000000800010a8                get_branch_total
+                0x00000000800010cc                start_time
+                0x000000008000115c                stop_time
+                0x00000000800011ec                get_time
+                0x0000000080001218                Proc_2
+                0x0000000080001248                Proc_3
+                0x0000000080001274                Proc_1
+                0x00000000800013d4                Proc_4
+                0x0000000080001404                Proc_5
+ .text          0x000000008000141c     0x30dc /tmp/ccJePJYy.o
+                0x0000000080004330                _putchar
+                0x0000000080004368                printf_
+                0x00000000800043bc                sprintf_
+                0x000000008000440c                snprintf_
+                0x0000000080004458                vprintf_
+                0x0000000080004488                vsnprintf_
+                0x00000000800044a4                fctprintf
+ .text          0x00000000800044f8      0x458 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_moddi3.o)
+                0x00000000800044f8                __moddi3
+ .text          0x0000000080004950      0x434 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                0x0000000080004950                __udivdi3
+ .text          0x0000000080004d84      0x410 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+                0x0000000080004d84                __umoddi3
+ .text          0x0000000080005194        0x0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .text          0x0000000080005194       0x20 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcmp.o)
+                0x0000000080005194                strcmp
+ *(.gnu.linkonce.t.*)
+                0x00000000800051b4                . = ALIGN (0x4)
+
+.rodata         0x00000000800051b4      0x974
+ *(.rdata)
+ *(.rodata .rodata.*)
+ .rodata.str1.4
+                0x00000000800051b4      0x694 /tmp/ccuQhCwB.o
+                                        0x697 (size before relaxing)
+ .rodata        0x0000000080005848      0x1e0 /tmp/ccJePJYy.o
+ .rodata        0x0000000080005a28      0x100 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+                0x0000000080005a28                __clz_tab
+ *(.gnu.linkonce.r.*)
+                0x0000000080005b28                . = ALIGN (0x4)
+
+.eh_frame       0x0000000080005b28       0x50
+ .eh_frame      0x0000000080005b28       0x28 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_moddi3.o)
+ .eh_frame      0x0000000080005b50       0x14 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x0000000080005b64       0x14 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+                                         0x28 (size before relaxing)
+
+.rela.dyn       0x0000000080005b78        0x0
+ .rela.text.init
+                0x0000000080005b78        0x0 /tmp/ccyWAg5y.o
+ .rela.text     0x0000000080005b78        0x0 /tmp/ccyWAg5y.o
+ .rela.text.startup
+                0x0000000080005b78        0x0 /tmp/ccyWAg5y.o
+
+.data           0x0000000080005b78        0x0
+ *(.data .data.*)
+ .data          0x0000000080005b78        0x0 /tmp/ccyWAg5y.o
+ .data          0x0000000080005b78        0x0 /tmp/ccxYWN6z.o
+ .data          0x0000000080005b78        0x0 /tmp/ccuQhCwB.o
+ .data          0x0000000080005b78        0x0 /tmp/ccJePJYy.o
+ .data          0x0000000080005b78        0x0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_moddi3.o)
+ .data          0x0000000080005b78        0x0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .data          0x0000000080005b78        0x0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .data          0x0000000080005b78        0x0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .data          0x0000000080005b78        0x0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcmp.o)
+ *(.gnu.linkonce.d.*)
+                0x0000000080005b78                . = ALIGN (0x4)
+
+.sdata          0x0000000080005b78        0x0
+                0x0000000080005b78                . = ALIGN (0x4)
+                0x0000000080006378                __global_pointer$ = (. + 0x800)
+ *(.sdata .sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x0000000080005b78                . = ALIGN (0x4)
+ *(.srodata .srodata.*)
+                0x0000000080005b78                . = ALIGN (0x4)
+                0x0000000080005b78                __bss_start = .
+
+.sbss           0x0000000080005b78       0x44
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000080005b78       0x44 /tmp/ccuQhCwB.o
+                0x0000000080005bb8                Reg
+ *(.scommon)
+                0x0000000080005bbc                . = ALIGN (0x4)
+
+.bss            0x0000000080005bc0     0x2818
+ *(.bss)
+ .bss           0x0000000080005bc0        0x0 /tmp/ccyWAg5y.o
+ .bss           0x0000000080005bc0        0x0 /tmp/ccxYWN6z.o
+ .bss           0x0000000080005bc0        0x0 /tmp/ccuQhCwB.o
+ .bss           0x0000000080005bc0        0x0 /tmp/ccJePJYy.o
+ .bss           0x0000000080005bc0        0x0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_moddi3.o)
+ .bss           0x0000000080005bc0        0x0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .bss           0x0000000080005bc0        0x0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .bss           0x0000000080005bc0        0x0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .bss           0x0000000080005bc0        0x0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcmp.o)
+                0x0000000080005bc0                . = ALIGN (0x4)
+ COMMON         0x0000000080005bc0     0x2818 /tmp/ccuQhCwB.o
+                0x0000000080005bc0                Microseconds
+                0x0000000080005bc8                Dhrystones_Per_Second
+                0x0000000080005bd0                User_Time
+                0x0000000080005bd8                Begin_Time
+                0x0000000080005be0                Arr_2_Glob
+                0x00000000800082f0                End_Time
+                0x00000000800082f8                Next_Ptr_Glob
+                0x00000000800082fc                Int_Glob
+                0x0000000080008300                Ch_1_Glob
+                0x0000000080008301                Ch_2_Glob
+                0x0000000080008304                Ptr_Glob
+                0x0000000080008308                Done
+                0x000000008000830c                Arr_1_Glob
+                0x00000000800083d4                Bool_Glob
+                0x00000000800083d8                _end = .
+
+.stack          0x00000000800083d8     0x8000
+                0x00000000800083d8                _heap_end = .
+                0x00000000800103d8                . = (. + __stack_size)
+ *fill*         0x00000000800083d8     0x8000 
+                0x00000000800103d8                _sp = .
+                0x00000000800103d8                __bss_end = .
+OUTPUT(dhrystone.elf elf32-littleriscv)
+
+.debug_line     0x0000000000000000     0x399f
+ .debug_line    0x0000000000000000      0x166 /tmp/ccyWAg5y.o
+ .debug_line    0x0000000000000166      0x2b2 /tmp/ccxYWN6z.o
+ .debug_line    0x0000000000000418      0xf29 /tmp/ccuQhCwB.o
+ .debug_line    0x0000000000001341     0x1765 /tmp/ccJePJYy.o
+ .debug_line    0x0000000000002aa6      0x430 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_moddi3.o)
+ .debug_line    0x0000000000002ed6      0x41a /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_line    0x00000000000032f0      0x40d /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_line    0x00000000000036fd      0x2a2 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_info     0x0000000000000000     0x86be
+ .debug_info    0x0000000000000000       0x26 /tmp/ccyWAg5y.o
+ .debug_info    0x0000000000000026      0xbaf /tmp/ccxYWN6z.o
+ .debug_info    0x0000000000000bd5     0x1aa9 /tmp/ccuQhCwB.o
+ .debug_info    0x000000000000267e     0x2145 /tmp/ccJePJYy.o
+ .debug_info    0x00000000000047c3     0x11ad /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_moddi3.o)
+ .debug_info    0x0000000000005970     0x112a /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_info    0x0000000000006a9a     0x1187 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_info    0x0000000000007c21      0xa9d /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_abbrev   0x0000000000000000     0x12dc
+ .debug_abbrev  0x0000000000000000       0x14 /tmp/ccyWAg5y.o
+ .debug_abbrev  0x0000000000000014      0x25e /tmp/ccxYWN6z.o
+ .debug_abbrev  0x0000000000000272      0x332 /tmp/ccuQhCwB.o
+ .debug_abbrev  0x00000000000005a4      0x389 /tmp/ccJePJYy.o
+ .debug_abbrev  0x000000000000092d      0x2b3 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_moddi3.o)
+ .debug_abbrev  0x0000000000000be0      0x292 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x0000000000000e72      0x2ac /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_abbrev  0x000000000000111e      0x1be /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_aranges  0x0000000000000000      0x100
+ .debug_aranges
+                0x0000000000000000       0x20 /tmp/ccyWAg5y.o
+ .debug_aranges
+                0x0000000000000020       0x20 /tmp/ccxYWN6z.o
+ .debug_aranges
+                0x0000000000000040       0x28 /tmp/ccuQhCwB.o
+ .debug_aranges
+                0x0000000000000068       0x20 /tmp/ccJePJYy.o
+ .debug_aranges
+                0x0000000000000088       0x20 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_moddi3.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_aranges
+                0x00000000000000e8       0x18 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_str      0x0000000000000000      0xf58
+ .debug_str     0x0000000000000000       0x38 /tmp/ccyWAg5y.o
+ .debug_str     0x0000000000000038      0x5e8 /tmp/ccxYWN6z.o
+                                        0x668 (size before relaxing)
+ .debug_str     0x0000000000000620      0x387 /tmp/ccuQhCwB.o
+                                        0x920 (size before relaxing)
+ .debug_str     0x00000000000009a7      0x16b /tmp/ccJePJYy.o
+                                        0x2ba (size before relaxing)
+ .debug_str     0x0000000000000b12      0x3a0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_moddi3.o)
+                                        0x83f (size before relaxing)
+ .debug_str     0x0000000000000eb2        0xa /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                                        0x840 (size before relaxing)
+ .debug_str     0x0000000000000ebc        0xa /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+                                        0x840 (size before relaxing)
+ .debug_str     0x0000000000000ec6       0x92 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+                                        0x787 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x5f4f
+ .debug_loc     0x0000000000000000      0x411 /tmp/ccxYWN6z.o
+ .debug_loc     0x0000000000000411      0x83b /tmp/ccuQhCwB.o
+ .debug_loc     0x0000000000000c4c     0x33a6 /tmp/ccJePJYy.o
+ .debug_loc     0x0000000000003ff2      0x9c4 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_moddi3.o)
+ .debug_loc     0x00000000000049b6      0xbf5 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_loc     0x00000000000055ab      0x9a4 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+
+.debug_ranges   0x0000000000000000      0xac8
+ .debug_ranges  0x0000000000000000       0x18 /tmp/ccxYWN6z.o
+ .debug_ranges  0x0000000000000018       0xd8 /tmp/ccuQhCwB.o
+ .debug_ranges  0x00000000000000f0      0x768 /tmp/ccJePJYy.o
+ .debug_ranges  0x0000000000000858       0xc0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_moddi3.o)
+ .debug_ranges  0x0000000000000918       0xf0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_ranges  0x0000000000000a08       0xc0 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+
+.comment        0x0000000000000000       0x11
+ .comment       0x0000000000000000       0x11 /tmp/ccxYWN6z.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 /tmp/ccuQhCwB.o
+ .comment       0x0000000000000011       0x12 /tmp/ccJePJYy.o
+ .comment       0x0000000000000011       0x12 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_moddi3.o)
+ .comment       0x0000000000000011       0x12 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000011       0x12 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .comment       0x0000000000000011       0x12 /home/lizhirui/workspace/gcc7.2/build/lib/gcc/riscv64-unknown-elf/7.2.0/rv32im/ilp32/libgcc.a(_clz.o)
+
+.debug_frame    0x0000000000000000      0x410
+ .debug_frame   0x0000000000000000       0xc0 /tmp/ccxYWN6z.o
+ .debug_frame   0x00000000000000c0      0x184 /tmp/ccuQhCwB.o
+ .debug_frame   0x0000000000000244      0x1cc /tmp/ccJePJYy.o
